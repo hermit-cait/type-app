@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>type calculator</title>
+  </head>
+  <body>  
+    <section class="wrapper">
+      <dropdown class="dropdown-wrapper">
+        <button onclick="toggleMenu()" class="dropdown-button" id="dropdown-button">show menu</button>
+        <dropdown id="dropdown-content" class="dropdown-content">
+          <input type="text" placeholder="Search for a pokemon type" id="input" onkeyup="filterTypes()">
+          <div id="type-wrapper">
+            <a href="#">normal</a>
+            <a href="#">grass</a>
+            <a href="#">fire</a>
+            <a href="#">water</a>
+            <a href="#">bug</a>
+            <a href="#">poison</a>
+            <a href="#">flying</a>
+            <a href="#">ground</a>
+            <a href="#">rock</a>
+            <a href="#">fighting</a>
+            <a href="#">electric</a>
+            <a href="#">ghost</a>
+            <a href="#">psychic</a>
+            <a href="#">dark</a>
+            <a href="#">steel</a>
+            <a href="#">ice</a>
+            <a href="#">dragon</a>
+            <a href="#">fairy</a>
+          </div>
+        </dropdown>
+      </dropdown> 
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
